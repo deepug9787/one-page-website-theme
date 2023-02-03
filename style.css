@@ -553,7 +553,7 @@ footer h2 {
     }
 
     nav {
-        padding: 1.5rem;
+        padding: 1.5rem 2.5rem 1.5rem 1.5rem;
         text-align: right;
         position: fixed;
         top: 0;
