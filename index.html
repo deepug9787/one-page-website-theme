@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+            content="minimum-scale=1"
+        />
+        <title>Architect</title>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header class="contained">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Logo" />
+                <span>Architect</span>
+            </a>
+
+            <button aria-expanded="false" aria-label="menu" class="menu-icon hamburger-menu">
+                &#9776;
+            </button>
+
+            <nav>
+                <button aria-label="close menu" class="menu-icon close-menu">&#215;</button>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero" id="hero">
+            <section class="contained">
+                <h1>
+                    A full-service architect and interior design firm with over 15 years of
+                    experience.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste asperiores
+                    perferendis, unde, totam libero sequi error suscipit voluptatibus laudantium qui
+                    veritatis est ea repellendus, fuga laborum maiores illo maxime distinctio!
+                </p>
+
+                <a href="#" class="link cta-link"
+                    ><span>Talk to an expert architect</span>
+                    <img src="img/icons/dark-arrow.png" alt="" />
+                </a>
+            </section>
+
+            <picture>
+                <source srcset="img/hero/hero.webp" media="(min-width: 850px)" />
+                <img src="img/hero/hero-cropped.webp" alt="A house with pool" />
+            </picture>
+        </div>
+
+        <main>
+            <section class="about contained scroll-animation-hide" id="about">
+                <h2>About</h2>
+
+                <div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+                            nulla natus officiis perferendis quam nesciunt, expedita dicta nobis
+                            doloribus deserunt deleniti quod explicabo.
+                        </p>
+
+                        <div class="achievements">
+                            <div>
+                                <span>15</span>
+                                <span>Years of experience</span>
+                            </div>
+                            <div>
+                                <span>50+</span>
+                                <span>Completed Projects</span>
+                            </div>
+                            <div>
+                                <span>100+</span>
+                                <span>Happy Customers</span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="link cta-link"
+                            ><span>Learn More</span>
+                            <img src="img/icons/dark-arrow.png" alt="" />
+                        </a>
+                    </div>
+
+                    <img
+                        src="img/architecture-service/architecture-service-medium.webp"
+                        alt="Two people walking along a passageway"
+                    />
+                </div>
+            </section>
+
+            <section class="who-we-are contained scroll-animation-hide">
+                <h2 class="visually-hidden">Who we are</h2>
+
+                <div>
+                    <h3>Our Story</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laborum
+                        sed quod eos ratione.
+                    </p>
+
+                    <a href="#" class="link">
+                        <span>Read more</span>
+                        <img src="img/icons/white-arrow.png" alt="" />
+                    </a>
+
+                    <img src="img/icons/story.png" alt="" />
+                </div>
+
+                <div>
+                    <h3>Mission</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laborum
+                        sed quod eos ratione.
+                    </p>
+
+                    <a href="#" class="link">
+                        <span>Read more</span>
+                        <img src="img/icons/white-arrow.png" alt="" />
+                    </a>
+
+                    <img src="img/icons/mission.png" alt="" />
+                </div>
+
+                <div>
+                    <h3>Our Team</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laborum
+                        sed quod eos ratione.
+                    </p>
+
+                    <a href="#" class="link">
+                        <span>Read more</span>
+                        <img src="img/icons/white-arrow.png" alt="" />
+                    </a>
+
+                    <img src="img/icons/team.png" alt="" />
+                </div>
+            </section>
+
+            <section class="services contained" id="services">
+                <h2>Services</h2>
+                <div class="service-item">
+                    <div class="service-item-content">
+                        <section>
+                            <h3>Architecture</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+                                perspiciatis pariatur atque debitis officia autem sit consequuntur,
+                                voluptatibus quas qui veniam provident quia quae non eum animi
+                                itaque numquam repudiandae.
+                            </p>
+
+                            <a href="#" class="link cta-link"
+                                ><span>Learn More</span>
+                                <img src="img/icons/dark-arrow.png" alt="" />
+                            </a>
+                        </section>
+
+                        <img src="img/icons/architecture.png" alt="" />
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="img/architecture-service/architecture-service-large.webp"
+                            media="(min-width: 850px)"
+                        />
+                        <source
+                            srcset="img/architecture-service/architecture-service-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="service-img"
+                            src="img/architecture-service/architecture-service-small.webp"
+                            alt="Two people walking along a passageway"
+                        />
+                    </picture>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-content">
+                        <section>
+                            <h3>Interior Design</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+                                perspiciatis pariatur atque debitis officia autem sit consequuntur,
+                                voluptatibus quas qui veniam provident quia quae non eum animi
+                                itaque numquam repudiandae.
+                            </p>
+
+                            <a href="#" class="link cta-link"
+                                ><span>Learn More</span>
+                                <img src="img/icons/dark-arrow.png" alt="" />
+                            </a>
+                        </section>
+
+                        <img src="img/icons/interior.png" alt="" />
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="img/interior-design-service/interior-design-service-large.webp"
+                            media="(min-width: 850px)"
+                        />
+                        <source
+                            srcset="img/interior-design-service/interior-design-service-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="service-img"
+                            src="img/interior-design-service/interior-design-service-small.webp"
+                            alt="A living room with sofa and chairs"
+                        />
+                    </picture>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-content">
+                        <section>
+                            <h3>Renovation</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+                                perspiciatis pariatur atque debitis officia autem sit consequuntur,
+                                voluptatibus quas qui veniam provident quia quae non eum animi
+                                itaque numquam repudiandae.
+                            </p>
+
+                            <a href="#" class="link cta-link"
+                                ><span>Learn More</span>
+                                <img src="img/icons/dark-arrow.png" alt="" />
+                            </a>
+                        </section>
+
+                        <img src="img/icons/renovation.png" alt="" />
+                    </div>
+
+                    <picture>
+                        <source
+                            srcset="img/renovation-service/renovation-large.webp"
+                            media="(min-width: 850px)"
+                        />
+                        <source
+                            srcset="img/renovation-service/renovation-medium.webp"
+                            media="(min-width: 500px)"
+                        />
+                        <img
+                            class="service-img"
+                            src="img/renovation-service/renovation-small.webp"
+                            alt="A corridor inside a white building"
+                        />
+                    </picture>
+                </div>
+            </section>
+
+            <section class="portfolio contained" id="portfolio">
+                <h2>Portfolio</h2>
+
+                <div class="gallery">
+                    <figure>
+                        <img src="img/gallery/1.webp" alt="Two people walking along a passageway" />
+                        <figcaption>Architectural Project</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/gallery/2.webp" alt="A living room with sofa and chairs" />
+                        <figcaption>Interior Design Project</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/gallery/3.webp" alt="A corridor inside a white building" />
+                        <figcaption>Architectural Project</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/gallery/4.webp" alt="A spiral staircase" />
+                        <figcaption>Architectural Project</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img
+                            src="img/gallery/5.webp"
+                            alt="A home office with a table and desktop computer"
+                        />
+                        <figcaption>Home Office Project</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/gallery/6.webp" alt="A corporate boardroom" />
+                        <figcaption>Office Interior Project</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img
+                            src="img/gallery/7.webp"
+                            alt="An office meeting room with sofas, tables, and chairs"
+                        />
+                        <figcaption>Office Interior Project</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <div class="testimonial contained">
+                <h2 class="visually-hidden">Testimonials</h2>
+
+                <div class="testimonial-head">
+                    <img src="img/icons/quotation-large.png" alt="" />
+                    <span>
+                        What Our Clients <br />
+                        Say About Us
+                    </span>
+                </div>
+
+                <div class="testimonial-content">
+                    <figure>
+                        <blockquote>
+                            <img src="img/icons/quotation-small.png" alt="" />
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                laborum sed quod eos ratione. Eum veritatis sunt, reiciendis nihil
+                                repudiandae asperiores?
+                            </p>
+                        </blockquote>
+
+                        <div>
+                            <img
+                                src="img/person/person3.webp"
+                                class="profile-pic"
+                                alt="A smiling man with bald head"
+                            />
+
+                            <figcaption>
+                                <span class="client-name">Mark</span>
+                                <span class="client-designation">Founder, ABC Company</span>
+                            </figcaption>
+                        </div>
+                    </figure>
+
+                    <figure>
+                        <blockquote>
+                            <img src="img/icons/quotation-small.png" alt="" />
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                laborum sed quod eos ratione. Eum veritatis sunt, reiciendis nihil
+                                repudiandae asperiores?
+                            </p>
+                        </blockquote>
+
+                        <div>
+                            <img
+                                src="img/person/person4.webp"
+                                class="profile-pic"
+                                alt="A young man with a beard"
+                            />
+                            <figcaption>
+                                <span class="client-name">Sam</span>
+                                <span class="client-designation">CEO, XYZ Inc.</span>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+            <section class="blog contained scroll-animation-hide">
+                <h2>Blog</h2>
+
+                <div class="posts">
+                    <section class="post-item">
+                        <h3>Budget friendly interior designs</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aperiam
+                            perspiciatis, vel quidem reiciendis voluptate tenetur fuga asperiores
+                            alias non tempore.
+                        </p>
+
+                        <a href="#" class="link"
+                            ><span>Read More</span>
+                            <img src="img/icons/white-arrow.png" alt="" />
+                        </a>
+
+                        <img src="img/blog/1.webp" alt="A living room with sofa and chairs" />
+                    </section>
+
+                    <section class="post-item">
+                        <h3>Home office design tips</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempore
+                            reprehenderit perferendis debitis nemo eveniet optio quasi amet corporis
+                            nostrum eaque.
+                        </p>
+
+                        <a href="#" class="link"
+                            ><span>Read More</span>
+                            <img src="img/icons/white-arrow.png" alt="" />
+                        </a>
+
+                        <img
+                            src="img/blog/2.webp"
+                            alt="A home office with a table and desktop computer"
+                        />
+                    </section>
+
+                    <section class="post-item">
+                        <h3>Top 10 home interior design tips</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempore
+                            reprehenderit perferendis debitis nemo eveniet optio quasi amet corporis
+                            nostrum eaque.
+                        </p>
+
+                        <a href="#" class="link">
+                            <span>Read More</span>
+                            <img src="img/icons/white-arrow.png" alt="" />
+                        </a>
+
+                        <img
+                            src="img/blog/3.webp"
+                            alt="An office meeting room with sofas, tables, and chairs"
+                        />
+                    </section>
+                </div>
+            </section>
+
+            <section class="cta contained">
+                <h2>Get a <span>free</span> quote!</h2>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, fugit!
+                    Dignissimos, molestias consequatur, rem eos sit omnis, sequi impedit voluptate
+                    sapiente harum totam? Excepturi, in.
+                </p>
+
+                <a href="#" class="link cta-link">
+                    <span>Get Quote</span>
+                    <img src="img/icons/dark-arrow.png" alt="" />
+                </a>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="contained">
+                <section class="footer-about">
+                    <h2 class="visually-hidden">About</h2>
+
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="" />
+                        <span>Architect</span>
+                    </a>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum obcaecati
+                        minus qui praesentium rerum asperiores expedita placeat perferendis ratione.
+                        Eaque, necessitatibus est.
+                    </p>
+                </section>
+
+                <section class="footer-services">
+                    <h2>Services</h2>
+
+                    <ul>
+                        <li>Architecture</li>
+                        <li>Interior design</li>
+                        <li>Renovation</li>
+                    </ul>
+                </section>
+
+                <section class="footer-contact">
+                    <h2>Contact</h2>
+                    <span>+91453432343492</span>
+                    <span>lorem@gmail.com</span>
+                </section>
+            </div>
+        </footer>
+
+        <div class="menu-overlay"></div>
+
+        <div class="bck-overlay contained">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </body>
+</html>
