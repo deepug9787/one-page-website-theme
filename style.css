@@ -622,6 +622,11 @@ footer h2 {
         text-align: left;
     }
 
+    .cta h2 {
+        line-height: 3rem;
+        font-size: 1.8rem;
+    }
+
     .cta p {
         width: 100%;
     }
