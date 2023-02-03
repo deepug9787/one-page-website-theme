@@ -636,11 +636,11 @@ footer h2 {
         padding-bottom: 2rem;
     }
 
-    .highlight {
+    .achievements {
         grid-template-columns: 1fr 1fr;
     }
 
-    .highlight > div:nth-of-type(3) {
+    .achievements > div:nth-of-type(3) {
         display: none;
     }
 
