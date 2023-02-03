@@ -661,10 +661,6 @@ footer h2 {
         grid-row: span 1;
         grid-column: span 1;
     }
-
-    .overlay {
-        display: none;
-    }
 }
 
 @media (prefers-reduced-motion) {
