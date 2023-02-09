@@ -229,8 +229,12 @@ nav a:hover::after {
     margin-bottom: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0 2rem;
+    gap: 2rem;
     justify-items: start;
+}
+
+.hero section p {
+    grid-row: span 2;
 }
 
 .hero img {
@@ -590,6 +594,10 @@ footer h2 {
 
     .hero section {
         gap: 2rem;
+    }
+
+    .hero section p {
+        grid-row: span 1;
     }
 
     .about > div > img {
