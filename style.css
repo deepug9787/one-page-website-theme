@@ -233,6 +233,10 @@ nav a:hover::after {
     justify-items: start;
 }
 
+.hero img {
+    margin: 0 auto;
+}
+
 /* About */
 
 .about > div {
