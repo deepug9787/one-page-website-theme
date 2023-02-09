@@ -137,8 +137,8 @@ main > * {
     left: 0;
     right: 0;
     height: 100%;
-    backdrop-filter: blur(1px);
-    background-color: rgba(75, 80, 84, 0.5);
+    backdrop-filter: blur(2px);
+    background-color: rgb(0 0 0 / 50%);
     width: 100%;
     z-index: 0;
 }
@@ -573,7 +573,7 @@ footer h2 {
     }
 
     nav a {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
 
     .hero section,
@@ -641,6 +641,10 @@ footer h2 {
     main > * {
         padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+
+    nav {
+        width: 75%;
     }
 
     .achievements {
