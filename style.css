@@ -153,17 +153,6 @@ main > * {
     overflow: hidden;
 }
 
-.scroll-animation-hide {
-    opacity: 0;
-    transform: translateY(20%);
-    transition: all 2.5s;
-}
-
-.scroll-animation-show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 /* Header */
 
 header {
@@ -693,11 +682,5 @@ footer h2 {
     .gallery figure:nth-child(n) {
         grid-row: span 1;
         grid-column: span 1;
-    }
-}
-
-@media (prefers-reduced-motion) {
-    .scroll-animation-hide {
-        transition: none;
     }
 }

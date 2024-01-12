@@ -29,23 +29,3 @@ menuOverlay.addEventListener("click", () => {
 });
 
 /* Responsive menu end */
-
-/* Scroll animation */
-const observer = new IntersectionObserver(
-    (entries) => {
-        entries.forEach((entry) => {
-            if (entry.intersectionRatio > 0) {
-                entry.target.classList.add("scroll-animation-show");
-            } else {
-                entry.target.classList.remove("scroll-animation-show");
-            }
-        });
-    },
-    { threshold: 0.2 }
-);
-
-const animationItemsEl = document.querySelectorAll(".scroll-animation-hide");
-animationItemsEl.forEach((animationItem) => {
-    observer.observe(animationItem);
-});
-/* Scroll animation end */
