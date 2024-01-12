@@ -558,9 +558,13 @@ footer h2 {
     .hamburger-menu,
     .close-menu {
         display: inline-block;
-        font-size: 1.5rem;
-        background-color: var(--accent-color);
         border: none;
+        background: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        color: var(--text-color);
     }
 
     nav {
@@ -586,7 +590,7 @@ footer h2 {
     }
 
     nav a {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .hero section,
