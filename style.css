@@ -309,6 +309,10 @@ nav a:hover::after {
     margin-top: 1rem;
 }
 
+.who-we-are > div:nth-of-type(2) > .link {
+    color: #e4bb8e;
+}
+
 /* Services */
 
 .service-item {
