@@ -443,7 +443,7 @@ nav a:hover::after {
 
 .profile-pic {
     border-radius: 50%;
-    width: 20%;
+    max-width: 100%;
 }
 
 .testimonial-content figure > div {
