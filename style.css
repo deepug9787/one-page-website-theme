@@ -668,10 +668,6 @@ footer h2 {
         width: 75%;
     }
 
-    .hero > picture {
-        display: none;
-    }
-
     .achievements {
         grid-template-columns: 1fr 1fr;
     }

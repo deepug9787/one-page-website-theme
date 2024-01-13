@@ -76,6 +76,25 @@
             }
         </style>
 
+        <link
+            rel="preload"
+            as="image"
+            href="img/hero/hero-1920.webp"
+            alt="A house with pool"
+            imagesrcset="
+                    img/hero/hero-500.webp   500w,
+                    img/hero/hero-1000.webp 1000w,
+                    img/hero/hero-1500.webp 1500w,
+                    img/hero/hero-1920.webp 1920w
+        "
+            imagesizes="
+                (max-width: 500px) 500px,
+                (max-width: 1000px) 1000px,
+                (max-width: 1500px) 1500px,
+                1920px
+        "
+        />
+
         <link rel="stylesheet" href="style.css" media="screen" />
         <script src="script.js" defer></script>
     </head>
@@ -128,11 +147,22 @@
                 </a>
             </section>
 
-            <picture>
-                <source srcset="img/hero/hero.webp" media="(min-width: 1000px)" />
-                <source srcset="img/hero/hero-cropped.webp" media="(min-width: 500px)" />
-                <img src="img/hero/hero-cropped-small.webp" alt="A house with pool" />
-            </picture>
+            <img
+                src="img/hero/hero-1920.webp"
+                alt="A house with pool"
+                srcset="
+                    img/hero/hero-500.webp   500w,
+                    img/hero/hero-1000.webp 1000w,
+                    img/hero/hero-1500.webp 1500w,
+                    img/hero/hero-1920.webp 1920w
+                "
+                sizes="
+                (max-width: 500px) 500px,
+                (max-width: 1000px) 1000px,
+                (max-width: 1500px) 1500px,
+                1920px
+                "
+            />
         </div>
 
         <main>
