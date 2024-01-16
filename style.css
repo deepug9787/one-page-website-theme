@@ -240,6 +240,7 @@ nav a:hover::after {
 
 .hero img {
     margin: 0 auto;
+    height: auto;
 }
 
 /* About */
