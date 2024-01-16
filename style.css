@@ -446,7 +446,7 @@ nav a:hover::after {
     max-width: 100%;
 }
 
-.testimonial-content figure > div {
+.testimonial-content figcaption {
     display: flex;
     gap: 2rem;
     align-items: center;
