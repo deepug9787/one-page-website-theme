@@ -537,9 +537,12 @@ footer .logo {
     margin-bottom: 1.2rem;
 }
 
-footer h2 {
+footer h3 {
     margin-bottom: 1.6rem;
     text-align: left;
+    font-weight: 400;
+    color: var(--accent-color);
+    text-transform: uppercase;
 }
 
 .footer-services li,
