@@ -253,6 +253,7 @@ nav a:hover::after {
 .about > div > img {
     border-radius: var(--default-border-radius);
     order: -1;
+    height: auto;
 }
 
 .achievements {
@@ -350,6 +351,7 @@ nav a:hover::after {
 
 .service-img {
     border-radius: var(--default-border-radius);
+    height: auto;
 }
 
 /* Portfolio */
@@ -444,6 +446,7 @@ nav a:hover::after {
 .profile-pic {
     border-radius: 50%;
     max-width: 100%;
+    height: auto;
 }
 
 .testimonial-content figcaption {
@@ -479,6 +482,7 @@ nav a:hover::after {
 .post-item > img {
     order: -1;
     border-radius: var(--default-border-radius);
+    height: auto;
 }
 
 .post-item .more-link {
